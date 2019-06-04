@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant:300,400,700|Tajawal:300,400,700&display=swap');
+
+
+body {
+  color: rgb(48, 48, 48);
+  background-color: rgb(244, 244, 244);
+  font-size: 18px;
+  font-family: 'Tajawal', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Assistant', sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 40px;
+  color: #534d56;
+}
+/*aasdf*/
+
+h2 {
+  font-size: 24px;
+  line-height: 32px;
+  color: #1b998b;
+}
+
+img {
+  width: 160px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(220, 220, 220);
+}
+
+a:hover {
+  color: rgb(160, 160, 160);
+}
+
+.container {
+  width: 800px;
+  margin: 24px auto;
+}
+
+.card-white {
+  background: white;
+  padding: 28px 48px;
+  border-radius: 4px;
+  margin: 24px;
+  box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
+}
+
+.btn-grey {
+  background: #474249;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 14px 24px;
+  border-radius: 4px;
+  margin: 8px;
+  margin
+}
+
+.btn-grey:hover {
+  background: #413c42;
+  color: white;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 48px;
+}
+
+#introduction p {
+  margin-bottom: 32px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+}
